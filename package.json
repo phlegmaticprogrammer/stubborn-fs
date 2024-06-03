@@ -1,18 +1,12 @@
 {
-  "name": "stubborn-fs",
-  "repository": "github:fabiospampinato/stubborn-fs",
+  "name": "@phlegmaticprogrammer/stubborn-fs",
+  "repository": "github:phlegmaticprogrammer/stubborn-fs",
   "description": "Stubborn versions of Node's fs functions that try really hard to do their job.",
   "version": "1.2.5",
-  "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "scripts": {
-    "clean": "tsex clean",
-    "compile": "tsex compile",
-    "compile:watch": "tsex compile --watch",
-    "prepublishOnly": "tsex prepare"
-  },
+  "scripts": {},
   "keywords": [
     "fs",
     "attempt",
@@ -21,8 +15,7 @@
     "reliable"
   ],
   "devDependencies": {
-    "@types/node": "^20.4.6",
-    "tsex": "^3.0.0",
+    "@types/node": "^20.13.0",
     "typescript": "^5.1.6"
   }
 }
